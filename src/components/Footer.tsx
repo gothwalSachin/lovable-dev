@@ -1,9 +1,20 @@
 const Footer = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    }
+
     return (
         <div className="px-4 w-full mt-8 mb-6">
             <footer className='border border-[#272725] rounded-xl  bg-[#1c1c1c]'>
                 <div className="grid grid-cols-6 mx-auto px-12 my-6">
-                <img className="w-8" src='../favicon.ico' alt="logo" />
+                <div>
+                        <button className="cursor-pointer" onClick={scrollToTop}>
+                            <img width='36.5' height='37' src='../favicon.ico' alt="logo" />
+                        </button>
+                </div>
                 <div className="flex flex-col gap-y-4">
                     <p className="mb-3 font-bold">Company</p>
                     <a className="text-[#c5c1ba] hover:underline gap-4" href="">Blog</a>
