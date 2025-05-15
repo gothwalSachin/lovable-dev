@@ -5,11 +5,11 @@ const ProductOverview = () => {
         <div className="w-full px-4">
             <div className="flex flex-col gap-6 p-8 border border-[#272725] rounded-xl  bg-[#1c1c1c]">
                 <div className="flex w-full items-center justify-between">
-                    <p className="text-2xl font-bold">From the Community</p>
+                    <p className="text-xl md:text-2xl font-bold">From the Community</p>
                     <a className="duration-125 ml-auto text-sm transition-opacity ease-in-out hover:opacity-80" href="#">View All</a>
                 </div>
 
-                <div className="grid grid-cols-4 gap-x-5 gap-y-8">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-x-5 gap-y-8">
                     {card?.map(item =>
                         <ProductCard key={item.id} username={item.userName} remixes={item.remixes} />
                     )}

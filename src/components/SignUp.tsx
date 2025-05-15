@@ -3,9 +3,9 @@ import RightPanel from "./RightPanel";
 
 const SignUp = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 h-screen">
-            <div className="w-full px-6 py-30">
-                <div className="w-1/2 mx-auto flex flex-col gap-8">
+        <div className="grid lg:grid-cols-2 h-screen">
+            <div className="w-full px-4 sm:px-6 py-30">
+                <div className="w-full md:w-1/2 mx-auto flex flex-col gap-8">
                     <div>
                         <NavLink to='/'>
                             <img width='36' height='36' src='../favicon.ico' alt="logo" />
