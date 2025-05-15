@@ -11,7 +11,7 @@ const Footer = () => {
             <footer className='border border-[#272725] rounded-xl  bg-[#1c1c1c]'>
                 <div className="grid grid-cols-1 md:grid-cols-6 mx-auto px-12 my-6">
                 <div>
-                        <button className="cursor-pointer" onClick={scrollToTop}>
+                        <button className="cursor-pointer mb-4" onClick={scrollToTop}>
                             <img width='36.5' height='37' src='../favicon.ico' alt="logo" />
                         </button>
                 </div>
