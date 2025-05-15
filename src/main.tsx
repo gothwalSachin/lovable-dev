@@ -5,7 +5,7 @@ import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import Error from './components/Error.tsx';
 import SignUp from './components/SignUp.tsx';
-import LogIn from './components/Login.tsx';
+import LogIn from './components/LogIn.tsx';
 
 const appRouter = createBrowserRouter([
     {
